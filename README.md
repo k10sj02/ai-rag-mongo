@@ -16,8 +16,3 @@ To keep this repository in sync with the original MongoDB GenAI notebooks, use t
 ```bash
 git fetch upstream
 git merge upstream/main
-<<<<<<< HEAD
-git push origin main
-=======
-git push origin main
->>>>>>> update-readme
