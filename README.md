@@ -9,10 +9,11 @@ The original, self-paced workshops are available at:
 * [Building RAG Applications with MongoDB](https://mongodb-developer.github.io/ai-rag-lab/)
 * [The A to Z of Building AI Agents](https://mongodb-developer.github.io/ai-agents-lab/)
 
----
+## Updating from the Original Repository
 
-## Notes
+To keep this repository in sync with the original MongoDB GenAI notebooks, use the following workflow:
 
-- This repository is based on the original MongoDB Developer Day notebooks but is maintained independently.  
-- Changes I make locally may differ from the original content as I experiment with code, dependencies, and configurations.  
-- For reproducibility, I’m using `uv` to manage the Python environment and dependencies.
+```bash
+git fetch upstream
+git merge upstream/main
+git push origin main
